@@ -1,0 +1,17 @@
+.foter-btn {
+	display: flex;
+	align-items: center;
+	padding: 10px 28px;
+	cursor: pointer;
+	
+	&:hover,
+	&:focus {
+	color: var(--primery-bg-color);
+	background-color: var(--accent-button-color);
+}
+    &__icon {
+	margin-left: 10px;
+}
+}
+
+ 	

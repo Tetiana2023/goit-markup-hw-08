@@ -1,0 +1,36 @@
+.features {
+	display: flex;
+	
+	&__title {
+	color: var(--title-text-color);
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+} 
+    &__item:first-child {
+	margin-left: 0;
+}
+    &__item {
+	margin-left: 30px;
+	width: 270px;
+}
+    &__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+}
+    &__svg {
+	width: 270px;
+	height: 120px;
+	border-radius: 4px;
+	background-color: var(--secondary-bg-color);
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+}
+
+

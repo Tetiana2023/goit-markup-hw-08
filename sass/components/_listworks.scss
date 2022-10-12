@@ -1,0 +1,9 @@
+.list-works {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.list-works__item {
+	display: block;
+}
