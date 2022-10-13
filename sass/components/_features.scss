@@ -14,12 +14,15 @@
 	@media screen  and (min-width: 768px) {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 30px;
+		// gap: 30px;
 	
 	}
-	
+	// &__item {
+	// 	// flex-wrap: wrap;
+	// 	// gap: 30px;
+	//  }
     &__item:not(:last-child) {
-	margin-bottom: 30px;
+	 margin-bottom: 30px;
  }
 		
 	&__title {
@@ -38,7 +41,7 @@
     line-height: 1.71;
 }
     &__svg {
-	width: 100%;
+	width: 450px;
 	height: 120px;
 	border-radius: 4px;
 	background-color: var(--secondary-bg-color);

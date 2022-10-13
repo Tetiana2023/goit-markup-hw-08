@@ -1,7 +1,110 @@
-// .foter {
-// 	background-color: var(--hero-section-bg-color);
-// 	padding: 60px 0;
+.foter {
+    	background-color: var(--hero-section-bg-color);
+        // padding: 60px 0;
+    }
 	
+.foter__logo {
+    display: block;
+    margin-bottom: 20px;
+	padding: 0;
+    color: var(--primery-bg-color);
+    text-align: center;
+}
+.foter-one {
+    margin-bottom: 60px;
+}
+.foter-two { 
+    margin-bottom: 60px;
+    
+ }
+.foter-adres__item:not(:last-child) {
+    	margin-bottom: 8px;
+}
+.foter-adres__link {
+    display: block;
+    color: var(--footer-tel-mail-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    text-align: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover,
+    &:focus {
+       color: var(--accent-color);
+}
+}
+.foter-adres__link--color {
+	color: var(--primery-bg-color);
+}
+
+.title__foter {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primery-bg-color);
+    text-align: center;
+}
+.social-list__icon--foter {
+    fill: var(--primery-bg-color);
+    
+}
+.social-list__link--foter {
+	background-color: var(--color-icon-foter);
+
+}
+.foter__form ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: var(--footer-tel-mail-color); 
+}
+.foter__form-input {
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: var(--footer-tel-mail-color);
+    background-color: var(--hero-section-bg-color);
+    cursor: pointer;
+    padding-left: 16px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto 20px;
+
+    // @media screen and (min-width: 768px) {
+    //     .foter__form-input {
+    //     //    margin: 0 auto;
+           
+    //         // display: flex; 
+    //         // align-items: center;
+    //         // justify-content: center;
+    //     }
+    //     // .foter__form { 
+    //     //     display: flex;
+                
+    //     //  }
+    //  }
+
+    &:focus {
+    border: 1px solid var(--primery-bg-color);
+}
+}
+
+.foter__form { 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+        
+ }
+// margin-right: 12px;
+// 	padding: 0;
+// 	
+
 // }
 // .foter__logo {
 // 	display: block;
