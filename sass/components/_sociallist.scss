@@ -1,7 +1,9 @@
 .social-list {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 30px;
+	margin-bottom: 24px;
+
+	
 	
 	&__item:not(:last-child) {
 	margin-right: 10px;

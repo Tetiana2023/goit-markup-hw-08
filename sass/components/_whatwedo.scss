@@ -1,7 +1,15 @@
 .section-whatwedo {
-	padding-top: 47px;
-	padding-bottom: 94px;
-}
+	display: none;
+
+
+	@media screen and (min-width: 768px) {
+		display: block;
+	}
+		
+	}
+	// padding-top: 47px;
+	// padding-bottom: 94px;
+
 .whatwedo {
 	display: flex;
 	
