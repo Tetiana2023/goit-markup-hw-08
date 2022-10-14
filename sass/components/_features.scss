@@ -11,16 +11,21 @@
 
 .features {
 
-	@media screen  and (min-width: 768px) {
-		display: flex;
-		flex-wrap: wrap;
-		// gap: 30px;
+	// @media screen  and (min-width: 768px) {
+	// 	display: flex;
+	// 	flex-wrap: wrap;
+	// 	gap: 30px;
 	
+	// }
+	&__item {
+	flex-wrap: wrap;
+	gap: 30px;
+
+	//  @media screen and (nim-width: 768px) {
+	// 	width: calc((100% - 30px) / 2);
+	// }
+
 	}
-	// &__item {
-	// 	// flex-wrap: wrap;
-	// 	// gap: 30px;
-	//  }
     &__item:not(:last-child) {
 	 margin-bottom: 30px;
  }
@@ -49,6 +54,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	// @media screen and (nim-width: 768px) {
+	// 	width: calc((100% - 30px) / 2);
+	// }
 
 
 }
