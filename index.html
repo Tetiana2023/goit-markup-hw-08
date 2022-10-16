@@ -135,26 +135,14 @@
 					<ul class="team list">
 						<li class="team__item">
 							<picture>
-								<source 
-								srcset="
-								./images/Igor-mob-1x.jpg 1x,
-								./images/Igor-mob-2x.jpg 2x,
-								"
-								media="(max-width: 677px)">
-								<source 
-								srcset="
-								./images/Igor-tab-1x.jpg 1x,
-								./images/Igor-tab-2x.jpg 2x,
-								"
-								media="(min-width: 678px)">
-								<source 
-								srcset="
-								./images/Igor-desk-1x.jpg 1x,
-								./images/Igor-desk-2x.jpg 2x,
-								"
-								media="(min-width: 1200px)">
+								<source srcset="./images/Igor-mob-1x.jpg 1x, ./images/Igor-mob-2x.jpg 2x" media="(max-width: 677px)" />
+								<source srcset="./images/Igor-tab-1x.jpg 1x, ./images/Igor-tab-2x.jpg 2x" media="(min-width: 678px)" />
+								<source
+									srcset="./images/Igor-desk-1x.jpg 1x, ./images/Igor-desk-2x.jpg 2x"
+									media="(min-width: 1200px)"
+								/>
 
-							    <img class="team__foto" src="./images/igor-desk-1x.jpg" alt="фото Ігор"/>
+								<img class="team__foto" src="./images/igor-desk-1x.jpg" alt="фото Ігор" />
 							</picture>
 							<h3 class="team__title">Ігор Дем'яненко</h3>
 							<p class="team__text" lang="en"> Product Designer</p>
@@ -191,25 +179,13 @@
 						</li>
 						<li class="team__item">
 							<picture>
-								<source 
-								srcset="
-								./images/Olga-mob-1x.jpg 1x,
-								./images/Olga-mob-2x.jpg 2x,
-								"
-								media="(max-width: 677px)">
-								<source 
-								srcset="
-								./images/Olga-tab-1x.jpg 1x,
-								./images/Olga-tab-2x.jpg 2x,
-								"
-								media="(min-width: 678px)">
-								<source 
-								srcset="
-								./images/Olga-desk-1x.jpg 1x,
-								./images/Olga-desk-2x.jpg 2x,
-								"
-								media="(min-width: 1200px)">
-								<img class="team__foto" src="./images/Olga-desk-1x.jpg" alt="фото Ольга"/>
+								<source srcset="./images/Olga-mob-1x.jpg 1x, ./images/Olga-mob-2x.jpg 2x" media="(max-width: 677px)" />
+								<source srcset="./images/Olga-tab-1x.jpg 1x, ./images/Olga-tab-2x.jpg 2x" media="(min-width: 678px)" />
+								<source
+									srcset="./images/Olga-desk-1x.jpg 1x, ./images/Olga-desk-2x.jpg 2x"
+									media="(min-width: 1200px)"
+								/>
+								<img class="team__foto" src="./images/Olga-desk-1x.jpg" alt="фото Ольга" />
 							</picture>
 							<h3 class="team__title">Ольга Рєпіна</h3>
 							<p class="team__text" lang="en"> Frontend Developer</p>
@@ -245,7 +221,21 @@
 							</ul>
 						</li>
 						<li class="team__item">
-							<img class="team__foto" src="./images/mykola.jpg" alt="фото Микола" width="270" height="260" />
+							<picture>
+								<source
+									srcset="./images/Mykola-mob-1x.jpg 1x, ./images/Mykola-mob-2x.jpg 2x"
+									media="(max-width: 677px)"
+								/>
+								<source
+									srcset="./images/Mykola-tab-1x.jpg 1x, ./images/Mykola-tab-2x.jpg 2x"
+									media="(min-width: 678px)"
+								/>
+								<source
+									srcset="./images/Mykola-desk-1x.jpg 1x, ./images/Mykola-desk-2x.jpg 2x"
+									media="(min-width: 1200px)"
+								/>
+								<img class="team__foto" src="./images/Mykola-desk-1x.jpg" alt="фото Микола" />
+							</picture>
 							<h3 class="team__title">Микола Тарасов</h3>
 							<p class="team__text" lang="en">Marketing</p>
 							<ul class="social-list list">
@@ -280,7 +270,21 @@
 							</ul>
 						</li>
 						<li class="team__item">
-							<img class="team__foto" src="./images/mykhaylo.jpg" alt="фото Михайло" width="270" height="260" />
+							<picture>
+								<source
+									srcset="./images/Mykhaylo-mob-1x.jpg 1x, ./images/Mykhaylo-mob-2x.jpg 2x"
+									media="(max-width: 677px)"
+								/>
+								<source
+									srcset="./images/Mykhaylo-tab-1x.jpg 1x, ./images/Mykhaylo-tab-2x.jpg 2x"
+									media="(min-width: 678px)"
+								/>
+								<source
+									srcset="./images/Mykhaylo-desk-1x.jpg 1x, ./images/Mykhaylo-desk-2x.jpg 2x"
+									media="(min-width: 1200px)"
+								/>
+								<img class="team__foto" src="./images/Mykhaylo-desk-1x.jpg" alt="фото Михайло" />
+							</picture>
 							<h3 class="team__title">Михайло Єрмаков</h3>
 							<p class="team__text" lang="en">UI Designer</p>
 							<ul class="social-list list">
@@ -370,61 +374,63 @@
 		</main>
 		<footer class="foter section">
 			<div class="container foter-all">
-				<div class="foter-one">
-					<a href="./index.html" class="logo foter__logo"> <span class="logo__web">Web</span>Studio</a>
-					<address>
-						<ul class="list foter-adres">
-							<li class="foter-adres__item">
-								<a
-									class="foter-adres__link foter-adres__link--color"
-									href="https://goo.gl/maps/3nSZZ6kCtNBki5sE8"
-									target="_blank"
-									rel="noopener
+				<div class="foter-box">
+					<div class="foter-one">
+						<a href="./index.html" class="logo foter__logo"> <span class="logo__web">Web</span>Studio</a>
+						<address>
+							<ul class="list foter-adres">
+								<li class="foter-adres__item">
+									<a
+										class="foter-adres__link foter-adres__link--color"
+										href="https://goo.gl/maps/3nSZZ6kCtNBki5sE8"
+										target="_blank"
+										rel="noopener
 									noreferrer nofollow "
-									>м. Київ, пр-т Лесі Українки, 26</a
+										>м. Київ, пр-т Лесі Українки, 26</a
+									>
+								</li>
+								<li class="foter-adres__item"
+									><a class="foter-adres__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li
 								>
+								<li class="foter-adres__item"
+									><a class="foter-adres__link" href="tel:+380961111111">+38 096 111 11 11</a></li
+								>
+							</ul>
+						</address>
+					</div>
+					<div class="foter-two">
+						<p class="title__foter">Приєднуйтесь</p>
+						<ul class="list social-list">
+							<li class="social-list__item">
+								<a class="social-list__link social-list__link--foter" href="">
+									<svg class="social-list__icon social-list__icon--foter" width="20" height="20">
+										<use href="./images/icon.svg#icon-instagram"></use>
+									</svg>
+								</a>
 							</li>
-							<li class="foter-adres__item"
-								><a class="foter-adres__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li
-							>
-							<li class="foter-adres__item"
-								><a class="foter-adres__link" href="tel:+380961111111">+38 096 111 11 11</a></li
-							>
+							<li class="social-list__item">
+								<a class="social-list__link social-list__link--foter" href="">
+									<svg class="social-list__icon social-list__icon--foter" width="20" height="20">
+										<use href="./images/icon.svg#icon-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a class="social-list__link social-list__link--foter" href="">
+									<svg class="social-list__icon social-list__icon--foter" width="20" height="20">
+										<use href="./images/icon.svg#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a class="social-list__link social-list__link--foter" href="">
+									<svg class="social-list__icon social-list__icon--foter" width="20" height="20">
+										<use href="./images/icon.svg#icon-linkedin"></use>
+									</svg>
+								</a>
+							</li>
 						</ul>
-					</address>
-				</div>
-				<div class="foter-two">
-					<p class="title__foter">Приєднуйтесь</p>
-					<ul class="list social-list">
-						<li class="social-list__item">
-							<a class="social-list__link social-list__link--foter" href="">
-								<svg class="social-list__icon social-list__icon--foter" width="20" height="20">
-									<use href="./images/icon.svg#icon-instagram"></use>
-								</svg>
-							</a>
-						</li>
-						<li class="social-list__item">
-							<a class="social-list__link social-list__link--foter" href="">
-								<svg class="social-list__icon social-list__icon--foter" width="20" height="20">
-									<use href="./images/icon.svg#icon-twitter"></use>
-								</svg>
-							</a>
-						</li>
-						<li class="social-list__item">
-							<a class="social-list__link social-list__link--foter" href="">
-								<svg class="social-list__icon social-list__icon--foter" width="20" height="20">
-									<use href="./images/icon.svg#icon-facebook"></use>
-								</svg>
-							</a>
-						</li>
-						<li class="social-list__item">
-							<a class="social-list__link social-list__link--foter" href="">
-								<svg class="social-list__icon social-list__icon--foter" width="20" height="20">
-									<use href="./images/icon.svg#icon-linkedin"></use>
-								</svg>
-							</a>
-						</li>
-					</ul>
+					</div>
 				</div>
 				<div class="foter-three">
 					<p class="title__foter">Підпишіться на розсилку</p>

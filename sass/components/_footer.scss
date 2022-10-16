@@ -13,36 +13,54 @@
     @media screen and (width: 768px) {
         text-align: start;
         margin-left: 115px;
-        // margin-right: auto;
+        margin-right: auto;
     }
 
 }
 .foter-one {
     margin-bottom: 60px;
 
-    @media screen and (width: 768px) {
+    @media screen and (min-width: 768px) {
         display: flex;
         flex-direction: column;
         width: 50%;
      }
-     
+    
  }
 
 .foter-two { 
     margin-bottom: 60px;
     
-    @media screen and (width: 768px) {
+    @media screen and (min-width: 768px) {
        display: flex;
        flex-direction: column;
        width: 50%;
        margin: 0;
 
-    // margin-left: 70px;
-    // margin-right: auto;
+      margin-left: 70px;
+    margin-right: auto;
     }
-    
+    @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+    }
  }
+ @media screen and (min-width: 768px) {
+    .foter-box {
+        display: flex;
 
+        @media screen and (min-width: 1200px){
+            flex-direction: row;
+        }
+    }
+ }
+ @media screen and (min-width: 1200px){
+    .foter-all {
+        display: flex;
+        // align-items: baseline; 
+        }
+        
+    }
+   
 .foter-adres__item:not(:last-child) {
     	margin-bottom: 8px;
 }
@@ -74,6 +92,10 @@
     text-transform: uppercase;
     color: var(--primery-bg-color);
     text-align: center;
+
+    @media screen and (min-width: 1200px){
+        text-align: start;
+    }
 }
 .social-list__icon--foter {
     fill: var(--primery-bg-color);
@@ -102,20 +124,10 @@
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto 20px;
 
-    // @media screen and (min-width: 768px) {
-    //     .foter__form-input {
-    //     //    margin: 0 auto;
-           
-    //         // display: flex; 
-    //         // align-items: center;
-    //         // justify-content: center;
-    //     }
-    //     // .foter__form { 
-    //     //     display: flex;
-                
-    //     //  }
-    //  }
-
+    @media screen and (min-width: 1200px) {
+        width: 358px;
+    }
+   
     &:focus {
     border: 1px solid var(--primery-bg-color);
 }
