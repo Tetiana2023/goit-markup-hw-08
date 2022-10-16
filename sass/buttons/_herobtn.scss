@@ -1,6 +1,6 @@
 .hero-button {
 	cursor: pointer;
-	padding: 10px 32px;
+	padding: 10px 24px;
 	
 	&:hover,
 	&:focus {
@@ -9,4 +9,9 @@
     &:active {
 	background-color: var(--accent-button-color);
 }
+  @media screen and (min-width: 1200px) {
+	padding: 10px 32px;
+  }
 }
+
+

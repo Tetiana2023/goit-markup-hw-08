@@ -21,13 +21,15 @@
 	
 	@media screen and (min-width: 768px) {
      width: 354px;
+	 height: 100%;
 	}
-	}
+	
 	@media screen and (min-width: 1200px) {
 		width: 270px;
+		height: 100%;
 	   }
 }
-
+}
 // 	&__item:not(:last-child) {
 //       margin-bottom: 30px;
 //  }
@@ -40,10 +42,12 @@
 
 	@media screen and (min-width: 768px) {
 		width: 354px;
+		height: 374px;
 		// margin-bottom: 0;
 	   }
 	@media screen and (min-width: 1200px) {
 		width: 270px;
+		height: 260px;
 	   }
 
 } 
