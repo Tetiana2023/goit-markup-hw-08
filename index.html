@@ -452,6 +452,7 @@
 				</div>
 			</div>
 		</footer>
+		<!--Модальне вікно section-->
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
 				<button type="button" class="close-btn" data-modal-close>
@@ -501,6 +502,43 @@
 
 					<button class="button modal-form__btn" type="submit">Відправити</button>
 				</form>
+			</div>
+		</div>
+		<!--Мобільне меню section-->
+		<div class="menu-container js-menu-container " id="mobile-menu">
+			<button type="button" class="menu-toggle js-close-menu" >
+				<svg class="menu-toggle__icon" width="40" height="40" aria-label="Перемикач мобільного меню">
+					<use class="menu-toggle__close" href="./images/icon.svg#icon-close"></use>
+				</svg>
+			</button>
+			<div class="menu-container__wrap">
+				<ul class="mob-menu list">
+					<li class="mob-menu__item">
+						<a href="./index.html" class="mob-menu__link mob-menu__link--current">Студія</a></li>
+					<li class="mob-menu__item">
+						<a href="./portfolio.html" class="mob-menu__link">Портфоліо</a>
+					</li>
+					<li class="mob-menu__item">
+						<a href="" class="mob-menu__link">Контакти</a>
+					</li>
+				</ul>
+				<ul class="mob-contact list">
+					<li class="mob-contact__item">
+						<a class="mob-contact__link" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+					<li class="mob-contact__item"> 
+						<a class="mob-contact__link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+				</ul>
+				<ul class="mob-socials list">
+					<li class="mob-socials__item"> 
+						<a href="#" class="mob-socials__link">Instagram</a>
+					</li>
+					<li class="mob-socials__item">
+						<a href="#" class="mob-socials__link">Twitter</a></li>
+					<li class="mob-socials__item">
+						<a href="#" class="mob-socials__link">Facebook</a></li>
+					<li class="mob-socials__item">
+						<a href="#" class="mob-socials__link">Linkedin</a></li>
+				</ul>
 			</div>
 		</div>
 		<script src="./js/modal.js"></script>
