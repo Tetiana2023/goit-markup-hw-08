@@ -6,17 +6,31 @@
     
     &__icon {
 	margin-right: 7px;	
-}	
+}
+	
     &__text {
 	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
+	font-size: 12px;
+	line-height: 1.17;
 	color: var(--primery-text-color);
+
+	@media screen and (min-width: 1200px) {
+		
+	    font-size: 14px;
+	    line-height: 1.71;
+	}
 }
     &__link {
-	font-size: 14px;
-	line-height: 1.71;
+	font-size: 12px;
+	line-height: 1.17;
 	color: var(--accent-color);
+
+	@media screen and (min-width: 1200px) {
+	
+	    font-size: 14px;
+	    line-height: 1.71;
+	}
+
 }	
     &__vectorbox {
 	opacity: 1;
@@ -24,17 +38,7 @@
     &__checkfinal {
 	opacity: 0;
 }	
-    &__text {
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
-	color: var(--primery-text-color);
-}
-    &__link {
-	font-size: 14px;
-	line-height: 1.71;
-	color: var(--accent-color);
-}
+
 }
 
 .checkbox-label__input:checked + .checkbox-label__icon > .checkbox-label__checkfinal {

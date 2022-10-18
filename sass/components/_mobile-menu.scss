@@ -35,8 +35,8 @@
     flex-direction: column;
     gap: 32px;
     list-style: none;
-   
-    // margin-bottom: 302px;
+    flex-grow: 1;
+  
   }
   .mob-menu__link {
 	color: var(--title-text-color);
@@ -97,12 +97,6 @@
     text-decoration: none;
 }
 
-//   .mob-menu .link {
-//     display: block;
-//     padding: 10px;
-//     color: #fff;
-//     text-decoration: none;
-// }
 .menu-toggle__icon {
     width: 40px;
     height: 40px;
