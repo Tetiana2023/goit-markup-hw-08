@@ -1,5 +1,6 @@
 .foter {
     	background-color: var(--hero-section-bg-color);
+        width: 100%;
         }
 	
 .foter__logo {
@@ -20,7 +21,6 @@
     @media screen and (min-width: 768px) {
         display: flex;
         flex-direction: column;
-        // width: 50%;
      }
      @media screen and (min-width: 1200px) {
         margin-bottom: 0;

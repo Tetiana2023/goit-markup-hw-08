@@ -379,7 +379,7 @@ body {
   .hero {
     padding: 200px 0;
     max-width: 1600px;
-    height: 600px;
+    max-height: 600px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-desk-1x.jpg");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-desk-1x.jpg");
   }
@@ -457,6 +457,11 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   text-align: center;
+}
+@media screen and (min-width: 678px) {
+  .features__title {
+    text-align: start;
+  }
 }
 .features__text {
   font-weight: 400;
@@ -572,14 +577,14 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .team__item {
-    width: 270px;
+    width: 100%;
     height: 428px;
   }
 }
 
 .team__foto {
   display: block;
-  width: 450px;
+  width: 100%;
   height: 460px;
   margin-bottom: 30px;
 }
@@ -591,7 +596,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .team__foto {
-    width: 270px;
+    width: 100%;
     height: 260px;
   }
 }
@@ -703,6 +708,7 @@ body {
 
 .foter {
   background-color: var(--hero-section-bg-color);
+  width: 100%;
 }
 
 .foter__logo {
@@ -1276,8 +1282,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   padding: 48px 40px;
   background-color: #fff;
   z-index: 999;
@@ -1325,6 +1331,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  margin-bottom: 306px;
 }
 
 .mob-menu__link {
@@ -1364,7 +1371,6 @@ body {
 .mob-contact__link {
   font-size: 34px;
   line-height: 1.17;
-  color: #757575;
   text-decoration: none;
   color: rgb(33, 150, 243);
 }
