@@ -515,6 +515,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-bottom: 94px;
   }
 }
 
@@ -1546,7 +1547,22 @@ body {
   background-color: var(--accent-color);
 }
 
+.button-feild {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .modal-form__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 30px auto 0 auto;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

@@ -1,21 +1,32 @@
+.button-feild {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .modal-form__btn{
-	// display: inline-block;
-	margin: 30px auto 0 auto;
-	// margin-top: 30px;
-	// margin-left: 85px;
-	// margin-right: 85px;
+    display: flex;
+ 	margin: 30px auto 0 auto;
+	 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	 padding: 10px 52px;
+ 	cursor: pointer;
 
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	padding: 10px 52px;
-	cursor: pointer;
-
-	@media screen  and (min-width: 1200px){
-	// 	margin-left: 124px;
-	// margin-right: 124px;
-	}
+	 &__btn:hover,
+	 &__btn:focus {
+	 background-color: var(--accent-button-color);
+	  }
 	
-	&__btn:hover,
-    &__btn:focus {
-	background-color: var(--accent-button-color);
 }
-}
+
+
+
+// 	@media screen  and (min-width: 1200px){
+// 	// 	margin-left: 124px;
+// 	// margin-right: 124px;
+// 	}
+	
+// 	&__btn:hover,
+//     &__btn:focus {
+// 	background-color: var(--accent-button-color);
+// }
+// }
