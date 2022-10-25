@@ -1,3 +1,13 @@
+.main-part {
+	padding-top: 60px;
+	 padding-bottom: 60px;
+
+	 @media screen and (min-width:1200px) {
+		padding-top: 94px;
+		padding-bottom: 94px;
+	 }
+}
+
 .list-works {
 	display: flex;
 	flex-wrap: wrap;
@@ -7,9 +17,4 @@
 .list-works__item {
 	display: block;
 }
-.main-part {
-	padding-top: 94px;
-	padding-bottom: 100px;
-}
-
 
