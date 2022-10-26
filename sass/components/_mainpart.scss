@@ -17,11 +17,12 @@
 .list-works__item {
 	display: flex;
 	justify-content: center;
+	width: 100%
 	// display: block;
 }
 @media screen and (min-width: 768px) {
 	.list-works__item {
-		width: 354px;
+		flex-basis: calc((100% - 30px) / 2);
 		height: 100%;
 	}	
 	
@@ -30,7 +31,8 @@
    
 @media screen and (min-width: 1200px) {
 	.list-works__item{
-		 width: 370px;
+		//  width: 370px;
 		 height: 100%;
+		 flex-basis: calc((100% - 60px) / 3);
 	}
 }
